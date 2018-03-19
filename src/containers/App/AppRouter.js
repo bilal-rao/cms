@@ -16,6 +16,19 @@ class AppRouter extends Component {
           path={`${url}/users`}
           component={asyncComponent(() => import('../Users/antTables'))}
         />
+<<<<<<< HEAD
+        <Route
+          exact
+          path={`${url}/users/addUsers`}
+          component={asyncComponent(() => import('../Users/addUsers'))}
+        />
+        <Route
+          exact
+          path={`${url}/users/editUsers`}
+          component={asyncComponent(() => import('../Users/editUsers'))}
+        />
+=======
+>>>>>>> bb592121d350e320d6737343a4a4d60d6b8a831e
         {/* <Route
           exact
           path={`${url}/`}

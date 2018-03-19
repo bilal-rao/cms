@@ -26,6 +26,10 @@ class SignIn extends Component {
     }
   }
   handleLogin = () => {
+<<<<<<< HEAD
+    // console.log(this.props)
+=======
+>>>>>>> bb592121d350e320d6737343a4a4d60d6b8a831e
     const { login } = this.props;
     login();
     this.props.history.push('/dashboard');

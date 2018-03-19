@@ -21,8 +21,9 @@ const formItemLayout = {
     }
 };
 
-export default class AddUsers extends Component {
+export default class EditUsers extends Component {
     render() {
+        // console.log('props:',this.props)
         return (
             <LayoutWrapper>
                 <PageHeader><IntlMessages id="forms.addUsers" /></PageHeader>

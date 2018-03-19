@@ -10,7 +10,10 @@ import {
 import { Icon } from 'antd';
 
 const renderCell = (object, type, key) => {
+<<<<<<< HEAD
+=======
   // console.log(type)
+>>>>>>> bb592121d350e320d6737343a4a4d60d6b8a831e
   const value = object[key];
   switch (type) {
     case 'ImageCell':
@@ -21,8 +24,15 @@ const renderCell = (object, type, key) => {
       return LinkCell(value);
     case 'CrudIcon':
       return <div>
+<<<<<<< HEAD
+                <Icon type="edit"  onClick={()=>console.log('icon clicked')} />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <Icon type="eye" />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+=======
                 <Icon type="edit" className="isoEditIcon" />
                 {/* <Icon type="decription" className="isoViewIcon" /> */}
+>>>>>>> bb592121d350e320d6737343a4a4d60d6b8a831e
                 <Icon type="delete" className="isoDeleteIcon" />
             </div>
     default:
@@ -30,6 +40,8 @@ const renderCell = (object, type, key) => {
   }
 };
 
+<<<<<<< HEAD
+=======
 // const columns = [
 //   {
 //     title: <IntlMessages id="antTable.title.image" />,
@@ -57,6 +69,7 @@ const renderCell = (object, type, key) => {
 //     render: object => renderCell(object, 'TextCell', 'status')
 //   }
 // ];
+>>>>>>> bb592121d350e320d6737343a4a4d60d6b8a831e
 
 const columns = [
   {
@@ -72,6 +85,8 @@ const columns = [
     width: 300,
     render: object => renderCell(object, 'TextCell', 'name')
   },
+<<<<<<< HEAD
+=======
   // {
   //   title: <IntlMessages id="antTable.title.lastName" />,
   //   key: 'lastName',
@@ -90,6 +105,7 @@ const columns = [
   //   width: 200,
   //   render: object => renderCell(object, 'TextCell', 'street')
   // },
+>>>>>>> bb592121d350e320d6737343a4a4d60d6b8a831e
   {
     title: <IntlMessages id="antTable.title.email" />,
     key: 'email',
@@ -108,24 +124,35 @@ const columns = [
     width: 400,
     render: object => renderCell(object, 'CrudIcon', 'actions')
   }
+<<<<<<< HEAD
+=======
   // {
   //   title: <IntlMessages id="antTable.title.dob" />,
   //   key: 'date',
   //   width: 200,
   //   render: object => renderCell(object, 'DateCell', 'date')
   // }
+>>>>>>> bb592121d350e320d6737343a4a4d60d6b8a831e
 ];
 const smallColumns = [columns[1], columns[2], columns[3], columns[4]];
 const sortColumns = [
   { ...columns[1], sorter: true },
   { ...columns[2], sorter: true },
   { ...columns[3], sorter: true },
+<<<<<<< HEAD
+  { ...columns[4], sorter: false }
+=======
   { ...columns[4], sorter: true }
+>>>>>>> bb592121d350e320d6737343a4a4d60d6b8a831e
 ];
 
 const tableinfos = [
   {
+<<<<<<< HEAD
+    // title: 'Sortable Table',
+=======
     title: 'Sortable Table',
+>>>>>>> bb592121d350e320d6737343a4a4d60d6b8a831e
     value: 'sortView',
     columns: clone(sortColumns)
   },

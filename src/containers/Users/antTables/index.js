@@ -31,9 +31,16 @@ export default class AntTable extends Component {
       default:
         Component = TableViews.SimpleView;
     }
+<<<<<<< HEAD
+    return <Component tableInfo={tableInfo} dataList={dataList} history={this.props} />;
+  }
+  render() {
+    console.log('index.js of ant table,',this.props)
+=======
     return <Component tableInfo={tableInfo} dataList={dataList} />;
   }
   render() {
+>>>>>>> bb592121d350e320d6737343a4a4d60d6b8a831e
     return (
       <LayoutContentWrapper>
         <TableDemoStyle className="isoLayoutContent">

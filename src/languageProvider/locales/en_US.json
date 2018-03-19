@@ -179,6 +179,10 @@
   "feedback.alert.spin.alertTitle": "Alert message title",
   "feedback.alert.spin.alertDescription":
     "Further details about the context of this alert.",
+<<<<<<< HEAD
+  "forms.addUsers": "Add Users",
+=======
+>>>>>>> bb592121d350e320d6737343a4a4d60d6b8a831e
   "forms.input.header": "Input",
   "forms.input.basicTitle": "Basic usage",
   "forms.input.basicSubTitle": "Basic usage example.",

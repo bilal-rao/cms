@@ -67,7 +67,11 @@ class Sidebar extends Component {
   };
 
   render() {
+<<<<<<< HEAD
+    // console.log('url:',this.props.url);
+=======
     console.log('url:',this.props.url);
+>>>>>>> bb592121d350e320d6737343a4a4d60d6b8a831e
     // const { url, app, toggleOpenDrawer, bgcolor } = this.props;
     const { app, toggleOpenDrawer, customizedTheme } = this.props;
     const url = stripTrailingSlash(this.props.url);
